@@ -25,7 +25,7 @@ Reply to question with intent.
 
 3. Add above index.js in root folder (Nodejs Backend)
 
-4. Setup organisation id and api key in index.js
+4. Setup OpenAI organisation id and api key in index.js
 ```bash
     const configuration = new Configuration({
         organization: "your_organization_id",
