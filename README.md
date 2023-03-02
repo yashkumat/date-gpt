@@ -1,6 +1,6 @@
 # Date-GPT
 
-Generate message with intent to reply for message using OpenAI.
+AI generated message with intent to reply on any message using OpenAI.
 
 
 ## Demo
