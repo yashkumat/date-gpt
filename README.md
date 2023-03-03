@@ -25,7 +25,12 @@ Reply to question with intent.
 
 3. Add above index.js in root folder (Nodejs Backend)
 
-4. Setup OpenAI organisation id and api key in index.js
+4. Install OpenAI. Run following command
+```bash
+  npm install openai
+```
+
+5. Setup OpenAI organisation id and api key in index.js
 ```bash
     const configuration = new Configuration({
         organization: "your_organization_id",
@@ -33,13 +38,13 @@ Reply to question with intent.
     });
 ```
     
-5. Start react app using terminal command:
+6. Start react app using terminal command:
 ```bash
     npm start
 ```
 your application will start at port 3000
 
-6. Start nodejs server in another terminal using command:
+7. Start nodejs server in another terminal using command:
 ```bash
     node index.js
 ```
